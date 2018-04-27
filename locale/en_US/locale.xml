@@ -14,8 +14,6 @@
 <locale name="en_US" full_name="U.S. English">
 	<message key="plugins.generic.facebookFeed.displayName">Facebook Feed Plugin</message>
 	<message key="plugins.generic.facebookFeed.description">Integrate a Facebook Feed to OJS/OMP sidebar.</message>
-	<message key="plugins.generic.facebookFeed.manager.settings.description">Enter a Facebook page url. Do not use a localised version of the url (for example https://fi-fi.facebook.com/somePageHere/) instead use an url like https://www.facebook.com/somePageHere/.</message>
-	
-	<message key="plugins.generic.facebookFeed.manager.settings.facebookFeedUrl">Facebook page url</message>	
-	<message key="plugins.generic.facebookFeed.manager.settings.facebookFeedUrlRequired">Please enter an url.</message>
+	<message key="plugins.generic.facebookFeed.manager.settings.description">Enter a Facebook page URL. Do not use a localised version of the URL (for example https://fi-fi.facebook.com/somePageHere/) instead use an url like https://www.facebook.com/somePageHere/.</message>	
+	<message key="plugins.generic.facebookFeed.manager.settings.facebookFeedUrl">Facebook page URL</message>	
 </locale>
