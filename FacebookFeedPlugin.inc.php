@@ -26,7 +26,6 @@ class FacebookFeedPlugin extends GenericPlugin {
 			$this->import('FacebookFeedBlockPlugin');
 			$blockPlugin = new FacebookFeedBlockPlugin($this);
 			PluginRegistry::register('blocks', $blockPlugin, $this->getPluginPath());
-			$this->_registerTemplateResource();
 		}
 		return $success;
 	}
@@ -95,13 +94,5 @@ class FacebookFeedPlugin extends GenericPlugin {
 		}
 		return parent::manage($args, $request);
 	}
-
-	/**
-	 * @copydoc PKPPlugin::getTemplatePath
-	 */
-	function getTemplatePath($inCore = false) {
-		return $this->getTemplateResourceName() . ':templates/';
-	}
-
 }	
 ?>

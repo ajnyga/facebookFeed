@@ -33,7 +33,7 @@ class FacebookFeedBlockPlugin extends BlockPlugin {
 	 * @return String name of plugin
 	 */
 	public function getName() {
-		return 'FacebookFeedPlugin';
+		return 'FacebookFeedBlockPlugin';
 	}
 
 	/**

@@ -22,7 +22,7 @@
 	<div id="description">{translate key="plugins.generic.facebookFeed.manager.settings.description"}</div>
 
 	{fbvFormArea id="fbSettingsFormArea"}
-		{fbvElement type="text" name="facebookFeedUrl" value=$facebookFeedUrl label="plugins.generic.facebookFeed.manager.settings.facebookFeedUrl"}
+		{fbvElement type="text" id="facebookFeedUrl" name="facebookFeedUrl" value=$facebookFeedUrl label="plugins.generic.facebookFeed.manager.settings.facebookFeedUrl"}
 	{/fbvFormArea}
 
 	{fbvFormButtons}

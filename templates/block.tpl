@@ -9,7 +9,7 @@
  *
  *}
 
-<div class="pkp_block block_make_submission">
+<div class="pkp_block block_facebookFeed">
 	<div class="content">
 		<div id="fb-root"></div>
 		{literal}
@@ -22,6 +22,6 @@
 		}(document, 'script', 'facebook-jssdk'));</script>
 		{/literal}
 		<div class="fb-page" data-href="{$facebookFeedUrl}" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="" class="fb-xfbml-parse-ignore"><a href="{$facebookFeedUrl}">{$facebookFeedUrl}</a></blockquote></div>			
-
 	</div>
 </div>
+
